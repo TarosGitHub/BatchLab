@@ -51,6 +51,6 @@ echo %%0は「%0」です。
 echo %%1は「%1」です。
 echo %%2は「%2」です。
 echo %%*は「%*」です。
-exit /b 0
+exit /b
 
 :endProcess
