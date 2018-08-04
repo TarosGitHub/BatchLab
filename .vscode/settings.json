@@ -1,4 +1,6 @@
 {
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\system32\\cmd.exe",
-    "files.autoGuessEncoding": true
+    "files.autoGuessEncoding": true,
+    "[bat]":{"files.encoding": "shiftjis"},
+    "files.eol": "\r\n"
 }
