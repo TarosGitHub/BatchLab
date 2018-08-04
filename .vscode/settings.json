@@ -1,0 +1,7 @@
+{
+    // ターミナルソフトにコマンドプロンプトを使用する
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\system32\\cmd.exe"
+    
+    // ターミナルソフトにPower Shellを使用する
+    //"terminal.integrated.shell.windows": "\\windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+}
