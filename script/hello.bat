@@ -1,4 +1,4 @@
 @echo off
 
-rem Hello World ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
+rem Hello World ƒvƒƒOƒ‰ƒ€
 echo hello world
