@@ -13,7 +13,7 @@ echo この文は実行されない
 :destination
 echo ここは行先です。
 
-echo;
+echo.
 
 rem ## call文と戻り値
 rem goto文ではラベルにジャンプするだけでジャンプ元に戻ることはできないし戻り値も返せない。
@@ -26,7 +26,7 @@ rem なお、戻り値を返さなくてもいい場合は`exit /b`とだけ記述すればよい。
 call :function
 echo 戻り値は「%errorlevel%」です。 
 
-echo;
+echo.
 
 rem call文と引数
 rem call文では引数を指定し、ラベル（関数）に渡すことができる。

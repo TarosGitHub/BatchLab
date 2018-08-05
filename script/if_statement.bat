@@ -12,7 +12,7 @@ if %condition%==true (
     echo 真のときの処理
 )
 
-echo;
+echo.
 
 rem ## if ... else 文
 rem if 条件 (真のときの処理) else (偽のときの処理)
@@ -23,7 +23,7 @@ if %condition%==true (
     echo 偽のときの処理
 )
 
-echo;
+echo.
 
 rem ## if ... else if 文
 
@@ -35,7 +35,7 @@ if %condition%==false (
     echo 上記以外のときの処理
 )
 
-echo;
+echo.
 
 rem ## 処理は複数記述可能
 if %condition%==true (
