@@ -24,7 +24,7 @@ rem 環境変数ERRORLEVELにexitで指定した「数値」が代入される。
 rem なお、戻り値を返さなくてもいい場合は`exit /b`とだけ記述すればよい。
 
 call :function
-echo 戻り値は「%errorlevel%」です。 
+echo 戻り値は「%ERRORLEVEL%」です。 
 
 echo.
 
