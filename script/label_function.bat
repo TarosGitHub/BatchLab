@@ -39,7 +39,9 @@ rem 第0引数(%0)以外の引数をすべて受け取るには`%*`とする。
 call :withArgument arg1 arg2
 
 
-goto :endProcess
+exit /b
+rem ********** END PROCESS **********
+
 
 rem 戻り値を返すラベル（関数）
 :function
@@ -52,5 +54,3 @@ echo %%1は「%1」です。
 echo %%2は「%2」です。
 echo %%*は「%*」です。
 exit /b
-
-:endProcess
